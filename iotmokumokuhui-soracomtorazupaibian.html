@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IoTもくもく会 (SORACOMとラズパイ編) - yukawa8.md</title>
+        <meta charset="utf-8" />
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/theme/static/css/style.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    </head>
+
+    <body id="index" class="archive">
+        <div class="container">
+            <div class="header">
+                <ul class="nav nav-pills pull-right">
+                    <li class=""><a href="">Home</a></li>
+                    <li><a href="/archives.html">Archives</a></li>
+                </ul>
+                <h3 class="text-muted"><a href="">yukawa8.md</a></h3>
+				<h2 class="text-muted"></h2>
+             </div>
+<section id="content" class="article content">
+  <header>
+    <h2 class="entry-title">
+      <a href="/iotmokumokuhui-soracomtorazupaibian.html" rel="bookmark"
+         title="Permalink to IoTもくもく会 (SORACOMとラズパイ編)">IoTもくもく会 (SORACOMとラズパイ編)</a></h2>
+ 
+  </header>
+  
+     
+  <div class="entry-content">
+    <p>先日、勢いでRaspberry pi 3 Model Bを購入。
+(直後にModel B+の技適が通ったのは内緒)</p>
+<p>カメラモジュールも同時購入して、写真を撮るなどして遊んでいたのですが、  </p>
+<ul>
+<li>折角GPIOがあるのだから使わないのは勿体無い...</li>
+<li>とはいえいきなりモジュールやジャンパ買いに行ったら確実に壊す...</li>
+</ul>
+<p>ということで、<a href="https://soracom.connpass.com/event/82273/">IoT もくもく会</a>という、株式会社ソラコム様主催の<br>
+ハンズオンに参加してきました。</p>
+<h3>TL;DR</h3>
+<ul>
+<li>初期設定から超音波センサの作動, AWS連携まで2hでやり切れるメニュー </li>
+<li>丁寧なテキスト誘導と、ハンズオンならではの質問</li>
+<li>本格的にやるならもっと腰据えて深掘りしたい</li>
+</ul>
+<h3>内容</h3>
+<p>ハンズオンに必要なものはすべてソラコム様が準備してくださっており、参加時は<br>
+ノートパソコンだけ携えていけば全く問題ありませんでした。</p>
+<p>最終的にできたものがこちら。</p>
+<p><img alt="product" src="/images/20180602/product_mini.png"></p>
+<p>超音波センサで、センサの先の物体との距離を計測し、<br>
+その距離情報をSORACOMのAir SIMを介してAWSに転送したり、
+IFTTT連携させるというものです。</p>
+<p>IFTTT連携させる際はせっかくなので、「誰かが背後に近づいたら」マリーさんが<br>
+来たことにしてみました。
+(あまり精度良くなかったけど)</p>
+<p><img alt="mary" src="/images/20180602/iammary.png"></p>
+<p>ちなみに、使ったSORACOMのSIMはお持ち帰りでしたー</p>
+<h3>感想</h3>
+<p>テキストはステップバイステップ形式で丁寧に書かれており、とにかく<br>
+「これだけ手軽に作れる喜びを味わってもらう」という点に主眼をおいた<br>
+設計になっていた印象。</p>
+<p>「なんとなく出来た」という感もあったので、それは自分で深掘りして<br>
+みようかなと思っています。</p>
+<p>とはいえ、超音波センサの仕組みやらは口頭で説明してくださったり、<br>
+GPIOにジャンパを挿すときの注意点を知れたりなど、「多少テキストから<br>
+逸脱するけど大事なtips」も知れたので、初心者の私にはとても満足でした。</p>
+<p>ソラコム様、ありがとうございました!</p>
+  </div><!-- /.entry-content -->
+   <footer class="post-info text-muted">
+    Posted on <abbr class="published" title="2018-06-02T00:00:00+09:00">
+      土 02 6月 2018
+    </abbr>
+    <address class="vcard author">
+      by <a class="url fn" href="/author/yukawa8.html">yukawa8</a>
+    </address> in <a href="/category/iot.html">IoT</a> Tagged   </footer><!-- /.post-info -->
+</section>
+            <footer id="contentinfo" class="footer">
+                    <nav class="pull-right bottom-nav">
+                        <a href="/None">RSS</a>
+                    </nav>
+                    <address id="about" class="vcard body">
+                    &copy; <a href="">yukawa8.md</a> Proudly powered by <a href="http://getpelican.com/">Pelican</a>
+                    </address><!-- /#about -->
+            </footer><!-- /#contentinfo -->
+        </div><!-- container -->
+    </body>
+</html>
